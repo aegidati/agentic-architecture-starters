@@ -1,0 +1,14 @@
+{
+  "name": "flutter-client",
+  "version": "0.1.0",
+  "description": "Flutter Clean Architecture client starter (Material + go_router + http + tests)",
+  "entry": "app",
+  "stack": {
+    "runtime": "flutter>=3.38.0",
+    "language": "dart",
+    "ui": "flutter-material",
+    "routing": "go_router",
+    "http": "package:http",
+    "test": "flutter_test"
+  }
+}
