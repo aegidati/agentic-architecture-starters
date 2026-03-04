@@ -50,10 +50,16 @@ Into your derived project:
 From your derived project repository root:
 
 ```bash
+git subtree add --prefix=app <starter-repo> main --squash
+```
+
+Example with a named remote:
+
+```bash
 git remote add starters <path-or-url-to-agentic-architecture-starters>
 git fetch starters
-git subtree add --prefix app starters main --squash
-git subtree pull --prefix app starters main --squash
+git subtree add --prefix=app starters main --squash
+git subtree pull --prefix=app starters main --squash
 ```
 
 If you only want this starter folder content, use a filtered branch or copy approach based on your workflow.
